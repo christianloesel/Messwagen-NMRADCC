@@ -1,0 +1,9 @@
+Plot-Datei „/home/christian/Schreibtisch/Messwagen DCC/Messwagen Anzeigeplatine/Gerber/Messwagen Anzeigeplatine-F.Cu.gbr“ erstellt.
+Plot-Datei „/home/christian/Schreibtisch/Messwagen DCC/Messwagen Anzeigeplatine/Gerber/Messwagen Anzeigeplatine-B.Cu.gbr“ erstellt.
+Plot-Datei „/home/christian/Schreibtisch/Messwagen DCC/Messwagen Anzeigeplatine/Gerber/Messwagen Anzeigeplatine-F.Paste.gbr“ erstellt.
+Plot-Datei „/home/christian/Schreibtisch/Messwagen DCC/Messwagen Anzeigeplatine/Gerber/Messwagen Anzeigeplatine-B.Paste.gbr“ erstellt.
+Plot-Datei „/home/christian/Schreibtisch/Messwagen DCC/Messwagen Anzeigeplatine/Gerber/Messwagen Anzeigeplatine-F.SilkS.gbr“ erstellt.
+Plot-Datei „/home/christian/Schreibtisch/Messwagen DCC/Messwagen Anzeigeplatine/Gerber/Messwagen Anzeigeplatine-B.SilkS.gbr“ erstellt.
+Plot-Datei „/home/christian/Schreibtisch/Messwagen DCC/Messwagen Anzeigeplatine/Gerber/Messwagen Anzeigeplatine-F.Mask.gbr“ erstellt.
+Plot-Datei „/home/christian/Schreibtisch/Messwagen DCC/Messwagen Anzeigeplatine/Gerber/Messwagen Anzeigeplatine-B.Mask.gbr“ erstellt.
+Plot-Datei „/home/christian/Schreibtisch/Messwagen DCC/Messwagen Anzeigeplatine/Gerber/Messwagen Anzeigeplatine-Edge.Cuts.gbr“ erstellt.

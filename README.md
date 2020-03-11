@@ -1,2 +1,2 @@
 # Messwagen-NMRADCC
-Messwagen basierend auf AtMega328P
+Messwagen basierend auf ATmega328P

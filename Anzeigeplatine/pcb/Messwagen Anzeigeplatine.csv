@@ -1,0 +1,7 @@
+Reference Type, Quantity, Reference, Value, Footprint, Datasheet, Lieferant, Nummer, Vorrätig
+"C","1","C1,","100nF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","Reichelt","KEM X7R0805 100N","21"
+"IC","1","IC1,","MAX7219CWG","Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm","https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=A200%2FMAX7219%23MAX.pdf","Reichelt","MAX 7219 CWG",""
+"J","1","J1,","Conn_01x05","Messwagen Anzeigeplatine:PinHeader_1x05_P2.54mm_Vertical_SMD","~","Fischer Elektronik","SL LP 7 SMD 0",""
+"R","1","R1,","10K","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~","Reichelt","0 5 G","900"
+"TP","60","TP1,TP2,TP3,TP14,TP13,TP12,TP4,TP15,TP16,TP17,TP18,TP19,TP5,TP6,TP7,TP8,TP30,TP29,TP28,TP27,TP26,TP25,TP24,TP23,TP50,TP49,TP48,TP47,TP46,TP45,TP44,TP43,TP52,TP53,TP54,TP55,TP56,TP57,TP58,TP59,TP40,TP39,TP38,TP37,TP36,TP35,TP34,TP33,TP9,TP20,TP10,TP11,TP22,TP21,TP31,TP32,TP41,TP42,TP51,TP60,","TestPoint","Messwagen Anzeigeplatine:Lötpad","---","---","---","---"
+"U","4","U4,U3,U2,U1,","HDSP-7503","Display_7Segment:HDSP-A151","https://docs.broadcom.com/docs/AV02-2553EN","BG-Electronics","HDSP-7503","4"

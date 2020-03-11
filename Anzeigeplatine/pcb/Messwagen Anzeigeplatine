@@ -1,0 +1,7 @@
+Reference Type, Quantity, Reference, Value, Footprint, Datasheet
+"J","1","J1,","Conn_02x07_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical","~"
+"Q","4","Q1,Q2,Q3,Q4,","SMBTA 42 SMD","Package_TO_SOT_SMD:SOT-23_Handsoldering",""
+"R","4","R9,R10,R11,R12,","3K3","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+"R","8","R8,R7,R6,R5,R4,R3,R2,R1,","150R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
+"TP","66","TP1,TP2,TP3,TP15,TP14,TP13,TP4,TP16,TP17,TP18,TP19,TP20,TP5,TP6,TP7,TP8,TP32,TP31,TP30,TP29,TP28,TP27,TP26,TP25,TP54,TP53,TP52,TP51,TP50,TP49,TP48,TP47,TP57,TP58,TP59,TP60,TP61,TP62,TP63,TP64,TP43,TP42,TP41,TP40,TP39,TP38,TP37,TP36,TP9,TP21,TP10,TP11,TP12,TP24,TP23,TP22,TP33,TP34,TP44,TP45,TP46,TP35,TP55,TP56,TP66,TP65,","TestPoint","Messwagen Anzeigeplatine:Lötpad","~"
+"U","4","U4,U3,U2,U1,","HDSP-7503","Display_7Segment:HDSP-A151","https://docs.broadcom.com/docs/AV02-2553EN"

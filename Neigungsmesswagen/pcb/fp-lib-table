@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Messwagen NMRA_DCC")(type KiCad)(uri "${KIPRJMOD}/Messwagen NMRA_DCC.pretty")(options "")(descr ""))
+)

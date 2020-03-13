@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/christian/Schreibtisch/Messwagen DCC/Neigungsmesswagen/Neigungsmesswagen.sch</source>
+    <date>Mi 11 Mär 2020 19:26:46 CET</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Messwagen Steuerplatine</title>
+        <company>Christian Lösel</company>
+        <rev>2.0</rev>
+        <date>2020-02-25</date>
+        <source>Neigungsmesswagen.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Version mit NRMA-DCC"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC5">
+      <value>ULN2003</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=A200%2FDS_ULN2003_TOS.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">ULN 2003 AD SMD</field>
+        <field name="Vorrätig">3</field>
+      </fields>
+      <libsource lib="Neigungsmesswagen" part="ULN2003AD-Messwagen" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF9C3AB</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>TSR_1-2450</value>
+      <footprint>Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</footprint>
+      <datasheet>http://www.tracopower.com/products/tsr1.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">TSR 1-2450</field>
+        <field name="Vorrätig">2</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TSR_1-2450" description="1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF9C5DA</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>F0&gt;</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFB1965</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>F0&lt;</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFB19E6</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>F1</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFB1A1D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FRND_SMD_0805_RESISTOR_2017.pdf</datasheet>
+      <fields>
+        <field name="Nummer">0805</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFB3DF1</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FRND_SMD_0805_RESISTOR_2017.pdf</datasheet>
+      <fields>
+        <field name="Nummer">0805</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFB3E30</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FRND_SMD_0805_RESISTOR_2017.pdf</datasheet>
+      <fields>
+        <field name="Nummer">0805</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFB3E77</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>SCL</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFB699A</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>SDA</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFB6A9B</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>U+</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFD78FF</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>U+</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFD6229</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>VCC</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFBEA34</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFBEA47</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>U+</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFCAA1E</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FRND_SMD_0805_RESISTOR_2017.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">RND 0805 1 10K</field>
+        <field name="Vorrätig">900</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFCDC58</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FRND_SMD_0805_RESISTOR_2017.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">RND 0805 1 10K</field>
+        <field name="Vorrätig">900</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFCDCC7</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>16MHz</value>
+      <footprint>Crystal:Crystal_SMD_HC49-SD</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B400%2Fxxx-HC49-SMD.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">16,0000-HC49-SMD</field>
+        <field name="Vorrätig">2</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0376AA</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FKEM_C0XXX_X7R_DB-EN.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">KEM X7R0805 100N</field>
+        <field name="Vorrätig">21</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C03B404</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FKEM_C0XXX_C0G_DB-EN.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">KEM C0G0805 22P</field>
+        <field name="Vorrätig">18</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C03B48B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FKEM_C0XXX_C0G_DB-EN.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">KEM C0G0805 22P</field>
+        <field name="Vorrätig">18</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C03B560</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>D_Bridge</value>
+      <footprint>Diode_SMD:Diode_Bridge_Vishay_DFS</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=A400%2FDB101S-DB107S_SEP.PDF</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">SMD DB1A70</field>
+      </fields>
+      <libsource lib="Device" part="D_Bridge_+-AA" description="Diode bridge, +ve/-ve/AC/AC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFC3B10</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>Gleis1</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFD1EB1</tstamp>
+    </comp>
+    <comp ref="TP16">
+      <value>Gleis2</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFD1F7C</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>6N137</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket_LongPads</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=A500%2F6N137.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">6N 137 &amp; GS 8</field>
+        <field name="Vorrätig">4 &amp; 2</field>
+      </fields>
+      <libsource lib="Neigungsmesswagen" part="6N137-Messwagen" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C36951D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>ISP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=C140%2FDS_MPE_087.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">MPE 087-2-006</field>
+        <field name="Vorrätig">2</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E086E21</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FRND_SMD_0805_RESISTOR_2017.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">RND 0805 1 1,5K</field>
+        <field name="Vorrätig">900</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0D6DFC</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_MiniMELF_Handsoldering</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=A100%2FSMD1N4148%23VIS.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">1N 4148 SMD</field>
+        <field name="Vorrätig">5</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0E54E9</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FRND_SMD_0805_RESISTOR_2017.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">RND 0805 1 10K</field>
+        <field name="Vorrätig">900</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E113171</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FRND_SMD_0805_RESISTOR_2017.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">RND 0805 1 10K</field>
+        <field name="Vorrätig">900</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2601BF</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>B 140 F</value>
+      <footprint>Diode_SMD:D_SMA_Handsoldering</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=A400%2FB120-B160.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">B 140 F</field>
+        <field name="Vorrätig">4</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2D6F24</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FRND_SMD_0805_RESISTOR_2017.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">RND 0805 1 100</field>
+        <field name="Vorrätig">900</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2D719E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>680µF</value>
+      <footprint>Capacitor_SMD:C_Elec_10x10.2</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FABA0000C34.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">FK 680/25 SP</field>
+        <field name="Vorrätig">2</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2D73B6</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>ATmega328</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">ATMEGA 328P-AU</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega328P-AU" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E652D44</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Display</value>
+      <footprint>Messwagen NMRA_DCC:PinHeader_1x05_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">SL 1X36W 2,54</field>
+        <field name="Vorrätig">1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E55A76B</tstamp>
+    </comp>
+    <comp ref="ESD-Logo1">
+      <value>---</value>
+      <footprint>Symbol:ESD-Logo_6.6x6mm_SilkScreen</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E55C06B</tstamp>
+    </comp>
+    <comp ref="WEEE-Logo1">
+      <value>---</value>
+      <footprint>Symbol:WEEE-Logo_4.2x6mm_SilkScreen</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E55C12F</tstamp>
+    </comp>
+    <comp ref="F.Fiducial1">
+      <value>---</value>
+      <footprint>Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E55D08D</tstamp>
+    </comp>
+    <comp ref="B.Fiducial1">
+      <value>---</value>
+      <footprint>Fiducial:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E55D255</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FRND_SMD_0805_RESISTOR_2017.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">RND 0805 1 10K</field>
+        <field name="Vorrätig">900</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5F6729</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FKEM_C0XXX_X7R_DB-EN.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">KEM X7R0805 100N</field>
+        <field name="Vorrätig">21</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E728E4E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FKEM_C0XXX_X7R_DB-EN.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">KEM X7R0805 100N</field>
+        <field name="Vorrätig">21</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E598B0C</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=B300%2FKEM_C0XXX_X7R_DB-EN.pdf</datasheet>
+      <fields>
+        <field name="Lieferant">Reichelt</field>
+        <field name="Nummer">KEM X7R0805 100N</field>
+        <field name="Vorrätig">21</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFE5E3E</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TX</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63B3E7</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>RX</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>---</datasheet>
+      <fields>
+        <field name="Lieferant">---</field>
+        <field name="Nummer">---</field>
+        <field name="Vorrätig">---</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E63B42C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Bridge_+-AA">
+      <description>Diode bridge, +ve/-ve/AC/AC</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>D*Bridge*</fp>
+        <fp>D*Rectifier*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Bridge_+-AA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="~~" type="passive"/>
+        <pin num="4" name="~~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega48PV-10AU">
+      <aliases>
+        <alias>ATmega48P-20AU</alias>
+        <alias>ATmega48A-AU</alias>
+        <alias>ATmega48PA-AU</alias>
+        <alias>ATmega88PV-10AU</alias>
+        <alias>ATmega88P-20AU</alias>
+        <alias>ATmega88A-AU</alias>
+        <alias>ATmega88PA-AU</alias>
+        <alias>ATmega168PV-10AU</alias>
+        <alias>ATmega168P-20AU</alias>
+        <alias>ATmega168A-AU</alias>
+        <alias>ATmega168PA-AU</alias>
+        <alias>ATmega328-AU</alias>
+        <alias>ATmega328P-AU</alias>
+      </aliases>
+      <description>10MHz, 4kB Flash, 512B SRAM, 256B EEPROM, TQFP-32</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega48PV-10AU</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="3state"/>
+        <pin num="2" name="PD4" type="3state"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VCC" type="passive"/>
+        <pin num="7" name="XTAL1/PB6" type="3state"/>
+        <pin num="8" name="XTAL2/PB7" type="3state"/>
+        <pin num="9" name="PD5" type="3state"/>
+        <pin num="10" name="PD6" type="3state"/>
+        <pin num="11" name="PD7" type="3state"/>
+        <pin num="12" name="PB0" type="3state"/>
+        <pin num="13" name="PB1" type="3state"/>
+        <pin num="14" name="PB2" type="3state"/>
+        <pin num="15" name="PB3" type="3state"/>
+        <pin num="16" name="PB4" type="3state"/>
+        <pin num="17" name="PB5" type="3state"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="PC0" type="3state"/>
+        <pin num="24" name="PC1" type="3state"/>
+        <pin num="25" name="PC2" type="3state"/>
+        <pin num="26" name="PC3" type="3state"/>
+        <pin num="27" name="PC4" type="3state"/>
+        <pin num="28" name="PC5" type="3state"/>
+        <pin num="29" name="~RESET~/PC6" type="3state"/>
+        <pin num="30" name="PD0" type="3state"/>
+        <pin num="31" name="PD1" type="3state"/>
+        <pin num="32" name="PD2" type="3state"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Neigungsmesswagen" part="6N137-Messwagen">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">6N137-Messwagen</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="Anode" type="input"/>
+        <pin num="3" name="Cathode" type="output"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="VO" type="output"/>
+        <pin num="7" name="VE" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Neigungsmesswagen" part="ULN2003AD-Messwagen">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ULN2003AD-Messwagen</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I1" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I3" type="input"/>
+        <pin num="4" name="I4" type="input"/>
+        <pin num="5" name="I5" type="input"/>
+        <pin num="6" name="I6" type="input"/>
+        <pin num="7" name="I7" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="CD+" type="power_in"/>
+        <pin num="10" name="O7" type="output"/>
+        <pin num="11" name="O6" type="output"/>
+        <pin num="12" name="O5" type="output"/>
+        <pin num="13" name="O4" type="output"/>
+        <pin num="14" name="O3" type="output"/>
+        <pin num="15" name="O2" type="output"/>
+        <pin num="16" name="O1" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TSR_1-2450">
+      <aliases>
+        <alias>TSR_1-2412</alias>
+        <alias>TSR_1-2415</alias>
+        <alias>TSR_1-2418</alias>
+        <alias>TSR_1-2425</alias>
+        <alias>TSR_1-2433</alias>
+        <alias>TSR_1-2465</alias>
+        <alias>TSR_1-2490</alias>
+        <alias>TSR_1-24120</alias>
+        <alias>TSR_1-24150</alias>
+      </aliases>
+      <description>1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement</description>
+      <docs>http://www.tracopower.com/products/tsr1.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*TRACO*TSR?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSR_1-2450</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>/usr/share/kicad/library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Neigungsmesswagen">
+      <uri>/home/christian/Schreibtisch/Messwagen DCC/Neigungsmesswagen/Neigungsmesswagen.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/library/Regulator_Switching.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/MISO">
+      <node ref="IC3" pin="16"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="R11" pin="1"/>
+      <node ref="IC3" pin="18"/>
+      <node ref="TP11" pin="1"/>
+      <node ref="TP12" pin="1"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="IC4" pin="8"/>
+      <node ref="R4" pin="2"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C7-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="4" name="/MOSI">
+      <node ref="J1" pin="4"/>
+      <node ref="IC3" pin="15"/>
+    </net>
+    <net code="5" name="/SCK">
+      <node ref="J1" pin="3"/>
+      <node ref="IC3" pin="17"/>
+    </net>
+    <net code="6" name="/DCC">
+      <node ref="IC3" pin="32"/>
+      <node ref="IC4" pin="6"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="7" name="/Data">
+      <node ref="IC3" pin="11"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="8" name="/SCL">
+      <node ref="TP8" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="IC3" pin="28"/>
+    </net>
+    <net code="9" name="/Clock">
+      <node ref="J2" pin="4"/>
+      <node ref="IC3" pin="9"/>
+    </net>
+    <net code="10" name="/Load">
+      <node ref="J2" pin="3"/>
+      <node ref="IC3" pin="10"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="IC5" pin="8"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="TP13" pin="1"/>
+      <node ref="IC3" pin="21"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="IC3" pin="5"/>
+      <node ref="IC4" pin="5"/>
+      <node ref="IC3" pin="3"/>
+    </net>
+    <net code="12" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(IC3-Pad19)">
+      <node ref="IC3" pin="19"/>
+    </net>
+    <net code="14" name="Net-(IC3-Pad26)">
+      <node ref="IC3" pin="26"/>
+    </net>
+    <net code="15" name="Net-(IC3-Pad22)">
+      <node ref="IC3" pin="22"/>
+    </net>
+    <net code="16" name="Net-(C4-Pad1)">
+      <node ref="IC3" pin="20"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="17" name="Net-(IC3-Pad2)">
+      <node ref="IC3" pin="2"/>
+    </net>
+    <net code="18" name="/F1">
+      <node ref="IC3" pin="14"/>
+      <node ref="IC5" pin="6"/>
+      <node ref="IC5" pin="5"/>
+      <node ref="IC5" pin="7"/>
+    </net>
+    <net code="19" name="/F0reverse">
+      <node ref="IC5" pin="4"/>
+      <node ref="IC5" pin="3"/>
+      <node ref="IC3" pin="13"/>
+    </net>
+    <net code="20" name="/F0forward">
+      <node ref="IC3" pin="12"/>
+      <node ref="IC5" pin="2"/>
+      <node ref="IC5" pin="1"/>
+    </net>
+    <net code="21" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1"/>
+    </net>
+    <net code="22" name="/Gleis2">
+      <node ref="R7" pin="2"/>
+      <node ref="TP16" pin="1"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="23" name="Net-(C8-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="IC4" pin="2"/>
+    </net>
+    <net code="24" name="/TX">
+      <node ref="IC3" pin="31"/>
+      <node ref="TP2" pin="1"/>
+    </net>
+    <net code="25" name="Net-(IC5-Pad9)">
+      <node ref="IC5" pin="9"/>
+    </net>
+    <net code="26" name="/RX">
+      <node ref="TP1" pin="1"/>
+      <node ref="IC3" pin="30"/>
+    </net>
+    <net code="27" name="Net-(IC3-Pad25)">
+      <node ref="IC3" pin="25"/>
+    </net>
+    <net code="28" name="Net-(IC3-Pad24)">
+      <node ref="IC3" pin="24"/>
+    </net>
+    <net code="29" name="Net-(IC3-Pad23)">
+      <node ref="IC3" pin="23"/>
+    </net>
+    <net code="30" name="/Reset">
+      <node ref="J1" pin="5"/>
+      <node ref="IC3" pin="29"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="31" name="/SDA">
+      <node ref="TP7" pin="1"/>
+      <node ref="IC3" pin="27"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="32" name="/XTAL2">
+      <node ref="IC3" pin="8"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="33" name="/XTAL1">
+      <node ref="Q1" pin="1"/>
+      <node ref="IC3" pin="7"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R3-Pad1)">
+      <node ref="TP6" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R1-Pad1)">
+      <node ref="TP4" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="36" name="Net-(R2-Pad1)">
+      <node ref="TP5" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="37" name="Net-(IC5-Pad10)">
+      <node ref="IC5" pin="12"/>
+      <node ref="IC5" pin="11"/>
+      <node ref="IC5" pin="10"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="38" name="Net-(IC5-Pad15)">
+      <node ref="IC5" pin="15"/>
+      <node ref="IC5" pin="16"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="39" name="Net-(IC5-Pad13)">
+      <node ref="R2" pin="2"/>
+      <node ref="IC5" pin="14"/>
+      <node ref="IC5" pin="13"/>
+    </net>
+    <net code="40" name="/Gleis1">
+      <node ref="C8" pin="2"/>
+      <node ref="TP15" pin="1"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="D1" pin="2"/>
+      <node ref="IC4" pin="3"/>
+    </net>
+    <net code="41" name="Net-(IC4-Pad7)">
+      <node ref="IC4" pin="7"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="42" name="Net-(IC4-Pad4)">
+      <node ref="IC4" pin="4"/>
+    </net>
+    <net code="43" name="Net-(IC4-Pad1)">
+      <node ref="IC4" pin="1"/>
+    </net>
+  </nets>
+</export>

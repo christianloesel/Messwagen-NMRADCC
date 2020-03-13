@@ -1,0 +1,46 @@
+.title KiCad schematic
+IC5 /F0forward /F0forward /F0reverse /F0reverse /F1 /F1 /F1 GND Net-_IC5-Pad9_ Net-_IC5-Pad10_ Net-_IC5-Pad10_ Net-_IC5-Pad10_ Net-_IC5-Pad13_ Net-_IC5-Pad13_ Net-_IC5-Pad15_ Net-_IC5-Pad15_ ULN2003
+IC2 Net-_D2-Pad1_ GND +5V TSR_1-2450
+TP4 Net-_R1-Pad1_ F0forward
+TP5 Net-_R2-Pad1_ F0reverse
+TP6 Net-_R3-Pad1_ F1
+R1 Net-_R1-Pad1_ Net-_IC5-Pad15_ R
+R2 Net-_R2-Pad1_ Net-_IC5-Pad13_ R
+R3 Net-_R3-Pad1_ Net-_IC5-Pad10_ R
+TP8 /SCL SCL
+TP7 /SDA SDA
+TP9 Net-_IC5-Pad9_ U+
+TP10 Net-_IC5-Pad9_ U+
+TP12 +5V VCC
+TP13 GND GND
+TP11 Net-_IC5-Pad9_ U+
+R11 +5V /Reset 10K
+R5 /SCL +5V 10K
+Q1 /XTAL1 /XTAL2 16MHz
+C4 Net-_C4-Pad1_ GND 100nF
+C3 /XTAL2 GND 22pF
+C2 /XTAL1 GND 22pF
+IC1 Net-_D2-Pad1_ GND /Gleis1 /Gleis2 D_Bridge
+TP15 /Gleis1 Gleis1
+TP16 /Gleis2 Gleis2
+C6 +5V GND 100nF
+IC4 NC_01 Net-_C8-Pad1_ /Gleis2 GND /DCC Net-_IC4-Pad7_ +5V NC_02 6N137
+J1 /MISO +5V /SCK /MOSI /Reset GND ISP
+R7 Net-_C8-Pad1_ /Gleis1 1K5
+D1 Net-_C8-Pad1_ /Gleis2 1N4148
+R9 +5V /DCC 10K
+C5 +5V GND 100nF
+R8 +5V Net-_IC4-Pad7_ 10K
+D2 Net-_D2-Pad1_ Net-_C7-Pad1_ B 140 F
+R10 Net-_D2-Pad1_ Net-_C7-Pad1_ 100R
+C7 Net-_C7-Pad1_ GND 680µF
+IC3 NC_03 NC_04 GND +5V GND +5V /XTAL1 /XTAL2 NC_05 NC_06 NC_07 NC_08 NC_09 /SS /MOSI /MISO /SCK +5V NC_10 Net-_C4-Pad1_ GND NC_11 /F1 /F0reverse /F0forward NC_12 /SDA /SCL /Reset NC_13 NC_14 /DCC ATmega328
+J2 +5V /MOSI /SS /SCK GND Display
+ESD-Logo1 MountingHole
+WEEE-Logo1 MountingHole
+F.Fiducial1 MountingHole
+B.Fiducial1 MountingHole
+R4 /SDA +5V 10K
+C1 +5V GND 100nF
+C8 Net-_C8-Pad1_ /Gleis2 100nF
+.end

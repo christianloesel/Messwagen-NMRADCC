@@ -50,13 +50,9 @@ void notifyCVResetFactoryDefault() {
 
 void notifyDccSpeed( uint16_t Addr, DCC_ADDR_TYPE AddrType, uint8_t Speed, DCC_DIRECTION Dir, DCC_SPEED_STEPS SpeedSteps ) {
   newDirection = Dir;
-  //if (Addr == DECODER_ADDR) {
-  //  newDirection = Dir;
-  //}
 }
 
 void notifyDccFunc(uint16_t Addr, DCC_ADDR_TYPE AddrType, FN_GROUP FuncGrp, uint8_t FuncState) {
-  //if (Addr == DECODER_ADDR && FuncGrp == FN_0_4) {
   if (FuncGrp == FN_0_4) {
     F0State = (FuncState & FN_BIT_00) ? 1 : 0;
     F1State = (FuncState & FN_BIT_01) ? 1 : 0;
@@ -67,7 +63,6 @@ void notifyDccFunc(uint16_t Addr, DCC_ADDR_TYPE AddrType, FN_GROUP FuncGrp, uint
   if (FuncGrp == FN_5_8) {
     F5State = (FuncState & FN_BIT_05) ? 1: 0;
   }
-  //}
 }
 
 void setDisplay(float message) {

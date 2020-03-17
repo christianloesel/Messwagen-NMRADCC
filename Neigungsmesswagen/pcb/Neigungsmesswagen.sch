@@ -1266,4 +1266,18 @@ $EndComp
 Wire Wire Line
 	9600 5800 9850 5800
 Connection ~ 9850 5800
+$Comp
+L Mechanical:MountingHole CC-Logo1
+U 1 1 5E718CE6
+P 550 950
+F 0 "CC-Logo1" H 650 950 50  0000 L CNN
+F 1 "---" H 650 905 50  0001 L CNN
+F 2 "Symbol:CC-BY-NC-SA_10x3.6mm_SilkScreen" H 550 950 50  0001 C CNN
+F 3 "---" H 550 950 50  0001 C CNN
+F 4 "---" H -100 0   50  0001 C CNN "Lieferant"
+F 5 "---" H -100 0   50  0001 C CNN "Nummer"
+F 6 "---" H 0   200 50  0001 C CNN "Vorrätig"
+	1    550  950 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -97,8 +97,7 @@ void setup() {
   pinMode(F0F_PIN, OUTPUT);
   pinMode(F0R_PIN, OUTPUT);
   pinMode(F1_PIN, OUTPUT);
-  setDisplay(12.34);
-
+  
   Wire.begin();
   mpu6050.begin();
   mpu6050.setGyroOffsets(OffsetX, OffsetY, OffsetZ);
